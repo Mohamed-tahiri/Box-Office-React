@@ -31,7 +31,7 @@ function usePersistedReducer(reducer, initialState, key){
 
 }
 
-export function useShow(key = 'shows') {
+export function useShows(key = 'shows') {
 
     return usePersistedReducer(showsReducer, [], key);
 }
