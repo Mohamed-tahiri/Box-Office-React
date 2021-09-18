@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Box-Office-React/static/css/main.2b7dbdcc.chunk.css",
+    "main.js": "/Box-Office-React/static/js/main.89b39ebe.chunk.js",
+    "main.js.map": "/Box-Office-React/static/js/main.89b39ebe.chunk.js.map",
+    "runtime-main.js": "/Box-Office-React/static/js/runtime-main.66f065dd.js",
+    "runtime-main.js.map": "/Box-Office-React/static/js/runtime-main.66f065dd.js.map",
+    "static/js/2.3cff2d77.chunk.js": "/Box-Office-React/static/js/2.3cff2d77.chunk.js",
+    "static/js/2.3cff2d77.chunk.js.map": "/Box-Office-React/static/js/2.3cff2d77.chunk.js.map",
+    "static/js/3.5f809388.chunk.js": "/Box-Office-React/static/js/3.5f809388.chunk.js",
+    "static/js/3.5f809388.chunk.js.map": "/Box-Office-React/static/js/3.5f809388.chunk.js.map",
+    "index.html": "/Box-Office-React/index.html",
+    "static/css/main.2b7dbdcc.chunk.css.map": "/Box-Office-React/static/css/main.2b7dbdcc.chunk.css.map",
+    "static/js/2.3cff2d77.chunk.js.LICENSE.txt": "/Box-Office-React/static/js/2.3cff2d77.chunk.js.LICENSE.txt",
+    "static/media/not-found-image-15383864787lu.22bff5ce.jpg": "/Box-Office-React/static/media/not-found-image-15383864787lu.22bff5ce.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66f065dd.js",
+    "static/js/2.3cff2d77.chunk.js",
+    "static/css/main.2b7dbdcc.chunk.css",
+    "static/js/main.89b39ebe.chunk.js"
+  ]
+}
