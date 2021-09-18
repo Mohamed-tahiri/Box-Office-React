@@ -1,11 +1,9 @@
-/* eslint-disable arrow-body-style */
-/* eslint-disable no-unused-vars */
 import React from 'react'
 import ShowCard from './ShowCard';
 import { FlexGrid } from '../styled';
-
 import IMAGE_NOT_FOUND from '../../images/not-found-image-15383864787lu.jpg'
 import { useShows } from '../../misc/custom-hooks' ; 
+
 
 function ShowGrid({data}) {
 
