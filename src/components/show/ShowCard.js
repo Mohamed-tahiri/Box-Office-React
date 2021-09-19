@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { memo } from 'react'
 import { Link } from 'react-router-dom';
 import { Star } from '../styled';
 
@@ -6,6 +6,7 @@ import { StyledShowCard } from './ShowCard.styled';
 
 
 function ShowCard({id , name, image, summary, onStarClick , isStrarred }) {
+
     const summaryAsText = summary
         ? `${summary.split(' ').slice(0,10).join(' ').replace(/<.+?>/g, '')}...`
         : 'No description'
@@ -27,4 +28,4 @@ function ShowCard({id , name, image, summary, onStarClick , isStrarred }) {
     );
 };
 
-export default ShowCard
+export default memo(ShowCard) ; 

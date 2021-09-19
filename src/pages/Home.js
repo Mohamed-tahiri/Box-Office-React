@@ -1,4 +1,4 @@
-import React  , { useState }  from 'react'
+import React  , { useCallback, useState }  from 'react'
 import MainPageLayout from '../components/MainPageLayout'
 import { apiGet } from '../misc/config';
 import ShowGrid from '../components/show/ShowGrid';
@@ -21,9 +21,11 @@ function Home(){
             })
     };
 
-    const onInputChange = (ev) => {
+    const onInputChange =  useCallback ((ev) => {
         setInput(ev.target.value);  
-    };
+    }, 
+        [setInput]
+    );
     
     const onKeyDown = (ev) => {
         if(ev.keyCode === 13 ){
@@ -31,9 +33,9 @@ function Home(){
         }
     };
 
-    const onRadioChange = (ev) => {
+    const onRadioChange =  useCallback( (ev) => {
         setSearchOption(ev.target.value);
-    }
+    }, [] ) 
 
 
     const renderResults = () => {

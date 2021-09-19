@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { memo } from 'react';
 
 function CustomRdio ({ label, ...restProps }){
     return (
@@ -8,4 +8,5 @@ function CustomRdio ({ label, ...restProps }){
         </label>   
     );    
 }
-export default CustomRdio
+
+export default memo(CustomRdio) ; 
